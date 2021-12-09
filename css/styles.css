@@ -11781,3 +11781,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 #atm {
   font-family: 'Lobster', cursive;
 }
+
+#skills {
+  margin-left: 33vw;
+}

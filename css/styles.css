@@ -11801,23 +11801,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   flex-direction: column;
 }
 
-.skill_icon {
-  justify-content: flex-end;
-  margin-left: 7vw;
-}
-
-#skills {
-max-width: 40vw;
-margin-left: 25%;
-}
-
-@media screen and (min-width: 768px) {
-  #skills{
-  max-width: 40vw;
-  margin-left: 27vw;
-  }
-  .skill_icon {
-    justify-content: flex-end;
-    margin-left: 5vw;
-  }
+.skill_box #skills { 
+ display: grid; 
+ place-items: center;
 }

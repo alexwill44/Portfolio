@@ -11778,10 +11778,46 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-#atm {
-  font-family: 'Lobster', cursive;
+#title { 
+  padding: 10px;
+  background: black;
+  width: 45vw;
+  border-radius: 5%;
+}
+
+#title_button {
+  margin-top: 5px 10px 0 10px;
+  padding-top: 15px;
+}
+
+.skill_card {
+  display: grid;
+  grid-template-columns: 160px 160px;
+  grid-template-rows: 1fr;
 }
 
 #skills {
-  margin-left: 33vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill_icon {
+  justify-content: flex-end;
+  margin-left: 7vw;
+}
+
+#skills {
+max-width: 40vw;
+margin-left: 25%;
+}
+
+@media screen and (min-width: 768px) {
+  #skills{
+  max-width: 40vw;
+  margin-left: 27vw;
+  }
+  .skill_icon {
+    justify-content: flex-end;
+    margin-left: 5vw;
+  }
 }
